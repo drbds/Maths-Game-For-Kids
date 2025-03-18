@@ -2,8 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="blue">#FF3F51B5</color>
-    <color name="purple">#800080</color>
-    <color name="gold">#FFD700</color>
+    <color name="navyBlue">#232b38</color>
+    <color name="orange">#f5855f</color>
+    <color name="milk">#f5e6d1</color>
+<!--    <color name="gold">#FF957103</color>-->
+<!--    <color name="custom_button_color">#FF5722</color>-->
 
 </resources>

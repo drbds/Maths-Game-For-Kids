@@ -5,38 +5,88 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/math"
+    android:background="@color/white"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/buttonAdd"
-        android:layout_width="250dp"
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="50sp"
+        android:text="Maths Game For Kids"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/navyBlue"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:scaleType="centerCrop"/>
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:text="Welcome Back"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Login to continue"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="360dp"
         android:layout_height="75dp"
-        android:layout_marginTop="200dp"
-        android:backgroundTint="@color/blue"
-        android:text="ADDITION"
-        android:textSize="20dp"
-        app:cornerRadius="0dp" />
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/orange"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="360dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="number"
+        android:textColorHint="@color/orange"
+        android:textSize="15sp" />
 
     <Button
-        android:id="@+id/buttonSub"
-        android:layout_width="250dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="@color/blue"
-        android:text="SUBSTRACTION"
-        android:textSize="20dp"
-        app:cornerRadius="0dp" />
+        android:id="@+id/login"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Login" />
 
-    <Button
-        android:id="@+id/buttonMult"
-        android:layout_width="250dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="@color/blue"
-        android:text="MULTIPLICATION"
-        android:textSize="20dp"
-        app:cornerRadius="0dp" />
+    <TextView
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="New Player? Sign Up for free"
+        android:textStyle="bold" />
+
 </LinearLayout>
